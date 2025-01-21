@@ -17,7 +17,7 @@ function CommandPage(){
    return command;
      })
     
-    xhr.open('GET','http://213.130.147.62:3000/article');
+    xhr.open('GET','https://capucinebackend-helc.onrender.com/article');
     xhr.send();
     }
   LoadCommand();
